@@ -1,0 +1,14 @@
+{
+  "name": "mern-ecommerce",
+  "version": "1.0.0",
+  "description": "MERN ecommerce app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "author": "Mateo Navarrette",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
