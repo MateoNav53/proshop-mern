@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import Product from "./productModel";
 
 const orderSchema = mongoose.Schema(
   {
@@ -17,7 +16,7 @@ const orderSchema = mongoose.Schema(
         product: {
           type: mongoose.Schema.Types.ObjectId,
           required: true,
-          ref: Product,
+          ref: "Product",
         },
       },
     ],
