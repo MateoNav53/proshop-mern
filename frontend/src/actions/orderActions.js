@@ -90,8 +90,8 @@ export const payOrder = (orderId, paymentResult) => async (
     } = getState();
 
     const config = {
-      "Content-Type": "application/json",
       headers: {
+        "Content-Type": "application/json",
         Authorization: `Bearer ${userInfo.token}`,
       },
     };
